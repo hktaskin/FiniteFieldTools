@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="C:\Users\Haliko\Documents\Visual Studio 2010\Projects\FiniteFieldTools\BerlekampMasseyWeb\Publish" deleteExistingFiles="True" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Profile1" publishMethod="FileSystem" replaceMatchingFiles="False" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="Web.config" publishTime="05/24/2012 00:19:25" />
+    <file relUrl="Site.Master" publishTime="05/24/2012 00:18:25" />
+    <file relUrl="bin/FiniteFieldArithmetics.dll" publishTime="05/23/2012 20:58:53" />
+    <file relUrl="bin/BerlekampMasseyWeb.dll" publishTime="05/24/2012 00:19:14" />
+    <file relUrl="bin/BerlekampMasseyWeb.pdb" publishTime="05/24/2012 00:19:14" />
+    <file relUrl="Styles/Site.css" publishTime="05/23/2012 23:28:52" />
+    <file relUrl="Scripts/jquery-1.4.1.js" publishTime="05/23/2012 23:28:52" />
+    <file relUrl="bin/FiniteFieldArithmetics.pdb" publishTime="05/23/2012 20:58:53" />
+    <file relUrl="Global.asax" publishTime="05/23/2012 23:28:52" />
+    <file relUrl="Scripts/jquery-1.4.1-vsdoc.js" publishTime="05/23/2012 23:28:52" />
+    <file relUrl="About.aspx" publishTime="05/24/2012 00:18:25" />
+    <file relUrl="Default.aspx" publishTime="05/24/2012 00:20:49" />
+    <file relUrl="Scripts/jquery-1.4.1.min.js" publishTime="05/23/2012 23:28:52" />
+  </publishProfile>
+</publishData>
