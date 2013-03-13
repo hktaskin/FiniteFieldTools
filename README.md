@@ -15,28 +15,34 @@ All other projects make use of the FiniteFieldArithmetics library. So, they are 
 
 Here are the brief explanations of the example projects:
 
-### FiniteFieldExample
+### FiniteFieldExample ###
 This Windows.Forms project shows some simple operations related to Finite Fields using the FiniteFieldArithmetics library.
 
-### BerlekampMasseyExample
+### BerlekampMasseyExample ###
 This Windows.Forms project is a simple way to use Berlekamp-Massey Algorithm. Just enter the finite field size and a proper sequence and get the results from the algorithm.
 
-### BerlekampMasseyWeb
+### BerlekampMasseyWeb ###
 This is the web application form of the BerlekampMasseyExample project. It has the same properties.<br />An online demo of the project can be accessed from [http://kriptografi.net/tools/BerlekampMasseyWeb/Default.aspx](http://kriptografi.net/tools/BerlekampMasseyWeb/Default.aspx)
 
-### LFSRSequenceGeneratorExample
+### LFSRSequenceGeneratorExample ###
 This Windows.Forms application is a useful LFSR stream generator. It takes finite field size, initial state and feedback polynomial as inputs and enables clocking the LFSR at any rate. It also includes the period calculation for the given LFSR.
 
-### HellmanTablesExample
+### HellmanTablesExample ###
 This Windows.Forms application is a nice example of Hellman's TMTO Attack. It attacks on a 32-bit toy hash function derived from SHA1.
 
-There are 3 basic parts in the program.<br />
+There are 3 basic parts in the program.
+
 1.  Hash calculation: For the 32-bit toy hash function, this part allows to compute the 32-bit hash value for any 32-bit input.
+
 2.  Precomputation: For specific parameters of Hellman's Table, this part computes and saves the tables.
+
 3.  Attack: Using the precomputed tables, this part tries to find a pre-image for a given hash value.
 
-### Homework4Example
+### Homework4Example ###
 This project includes some algorithms for a homework. It consists 3 main parts:
+
 1. Order of Polynomial: This part finds the order of a polynomial over a finite field.
+
 2. Non-linear Combiner: This part implements a non-linear combiner using LFSRs and Boolean Functions. It computes the period and linear complexity of the output of the non-linear combiner.
+
 3. Binary stream operations: For a given binary stream, this part computes the number of runs in the stream and finds the auto correlation values.
